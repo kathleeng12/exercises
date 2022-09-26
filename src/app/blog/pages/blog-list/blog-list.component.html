@@ -1,1 +1,6 @@
-<p>blog-list works!</p>
+<div *ngFor="let data of blog">
+  <app-blog-item [blog]="data"></app-blog-item>
+</div>
+
+
+<button routerLink="">To Blog</button>
