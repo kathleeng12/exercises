@@ -1,6 +1,13 @@
-<div *ngFor="let data of blog">
+
+<h2 style="text-align: center ;"> BLOG LIST</h2>
+<div >
+  <button (click)="add('add)">Add</button>
+  <button (click)="deleteAll('del')">Delete All</button>
+</div>
+
+<div class="item" *ngFor="let data of blog">
   <app-blog-item [blog]="data"></app-blog-item>
 </div>
 
 
-<button routerLink="">To Blog</button>
+
