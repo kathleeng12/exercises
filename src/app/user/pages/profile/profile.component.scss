@@ -1,0 +1,14 @@
+.ng-Valid[required], .ng-Valid.required {
+  border-left: 7px solid green;
+}
+
+.ng-inValid[required], .ng-inValid.required {
+  border-left: 7px solid red;
+}
+
+.item{
+  background-color: rgb(171, 197, 207);
+  margin: 20px auto 20px auto;
+  max-width: 300px;
+  padding: 20px;
+}

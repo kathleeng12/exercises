@@ -1,1 +1,27 @@
-<p>profile works!</p>
+
+<h3 style="text-align:center" >Profile Page</h3>
+<form class="item" [formGroup]="profileForm" (ngSubmit)="submitProfile()">
+
+  <div class="form-group">
+    <label for="name">Name  </label>
+    <input formControlName="name" type="text" id="name" name="name" class="form-control" required>
+    <!-- <div [hidden]="ng-Valid" class="alert alert-danger">Name is required</div> -->
+  </div>
+<br/>
+  <div class="form-group">
+  <label for="name">Email  </label>
+  <input formControlName="email" type="text" id="email" name="email" class="form-control" required>
+  </div>
+  <br/>
+
+  <div class="form-group">
+  <label for="name">Bio  </label>
+  <input formControlName="bio" type="text" id="bio" name="bio" class="form-control">
+  </div>
+  <br/>
+
+  <!-- <div class="form-group"> -->
+<!--
+</div> -->
+  <button type="submit">Submit</button>
+</form>

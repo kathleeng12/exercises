@@ -1,25 +1,18 @@
+<h3 style="text-align:center">Book Item no. {{book?.id}} </h3>
 
- <table>
-  <thead>
-  <tr>
-    <th>Id</th>
-    <th>Name</th>
-    <th>Author</th>
-    <th>ISBN</th>
-    <th>Action</th>
-  </tr>
-</thead>
-<tbody>
-    <tr>
-    <td>{{book?.id}}</td>
-    <td>{{book?.name}}</td>
-    <td>{{book?.author}}</td>
-    <td>{{book?.isbn}}</td>
-    <td><button style="margin-right: 5px;" class="btn btn-warning" >Edit</button>
-    <button class="btn btn-danger" >Delete</button></td>
-  </tr>
-</tbody>
- </table>
+<form>
+
+
+<p class="tagName"> Name:  {{book?.name}} </p>
+<p class="tagName">Author: {{book?.author}}</p>
+<p class="tagName">ISBN: {{book?.isbn}}</p>
+
+<button class="button"  class="editBook" >Edit</button>
+<button class="deleteBook" >Delete</button>
+
+</form>
+
+
 
 
 

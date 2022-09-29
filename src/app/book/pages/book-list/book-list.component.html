@@ -1,14 +1,7 @@
 
 
-<div *ngFor="let data of book">
+<div  class="bookitem" *ngFor="let data of book">
   <app-book-item [book]="data"></app-book-item>
 </div>
 
 
-<button routerLink="/book">To Book</button>
-
-
-<!--
-<div *ngFor="let item of book">
-  <app-book-item>[book]="data"</app-book-item>
-</div> -->
