@@ -1,0 +1,17 @@
+{
+    "book": [
+      {
+      "id": 6,
+      "name":"Kaiko",
+      "author":["Ruakh","Kaiko"],
+      "isbn": "978-1-86197-876-9"
+      },
+      {
+        "id": 6,
+        "name":"John",
+        "author":["Anthony","Kaiko"],
+        "isbn": "978-1-56619-909-4"
+      }
+    ]
+}
+
